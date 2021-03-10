@@ -18,4 +18,4 @@ mkdir /media/windows_images
 mount -t nfs 192.168.72.25:/DEVOPS_PROD_STF_NFS_SHARE /media/windows_images
 
 echo "copying files"
-cp ${MOUNT_DIR}/${WIN10_32_DIR}/*-flat.vmdk $DEST_DIR && echo "done." &
+cp ${MOUNT_DIR}/${WIN10_32_DIR}/*-flat.vmdk $DEST_DIR && echo "done."

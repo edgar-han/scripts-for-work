@@ -8,4 +8,4 @@ then
   exit -1
 fi
 
-ssh nodeone@${PT_IP} bash -c "ls pt-* | xargs bash"
+ssh nodeone@${PT_IP} sudo bash -c "ls /home/nodeone/ | xargs bash" 
